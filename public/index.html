@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Web site created using create-snowpack-app" />
+  <link rel="stylesheet" type="text/css" href="/index.css" />
+  <link rel="icon" href="/favicon.ico">
+  <title>Peruno</title>
+</head>
+
+<body>
+
+  <div class="app-root">
+    <div class="app-header">
+      <div class="app-username"></div>
+      <div class="app-logo">
+        <h1>peruno</h1>
+      </div>
+      <div class="app-settings"></div>
+    </div>
+    <div class="app-content">
+      <input type="text" id="usernameInput" placeholder="Enter your username">
+      <h2>Chat</h2>
+      <div id="messages"></div>
+
+      <input type="text" id="messageInput" placeholder="Type your message here">
+      <div class="app-chat">
+        <div class="button">Send</button></div>
+      </div>
+      <div class="app-footer">
+        <p>©
+          2025 Akim Malyshchyk. All rights reserved.
+        </p>
+      </div>
+    </div>
+
+    <script type="module" src="/dist/index.js"></script>
+</body>
+
+</html>

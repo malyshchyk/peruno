@@ -1,0 +1,55 @@
+body {
+  font-family: monospace;
+}
+
+.app-root {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 1rem;
+  min-height: 100vh;
+}
+
+.app-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  min-width: 100%;
+}
+
+.app-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-content {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 2rem;
+  min-height: 100%;
+  
+  width: 100%;
+  max-width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.app-footer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.app-chat {
+  display: grid;
+  grid-template-columns: 1fr;
+  min-width: 100%;
+}
+
+.button {
+  text-decoration: underline;
+  cursor: pointer;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  margin-right: 10px;
+}
